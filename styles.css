@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  /* Colores
+  
+  #252525 (Gris, Background)
+  #FFA400 (amarillo)
+  #FC2933 (rojo)
+  #FFFFFF (Blanco)
+  #FFA100, #FB103D (Naranja,Rojo linear gradiant)
+  
+  */
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    background-color:#252525 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
+  }
+
+  .header ul {
+    display: flex;
+    gap: 20px;
+    color: white;
+    margin-right: 10vh;
+  }
+
+  .header i{
+    color: #FFA400;
+  }
+
+  a:hover{
+    color: #FFA400;
+  }
+
+  a{
+    color: #FFFFFF;
+  }
